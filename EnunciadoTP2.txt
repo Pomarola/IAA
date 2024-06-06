@@ -102,7 +102,8 @@ Los otros parámetros se pueden tomar: learning rate 0.05, momentum 0.3, 4000 ev
 Entregue curvas de los tres errores (entrenamiento y test en una figura, penalización en otra figura) para el valor de gamma elegido, y para algún otro valor en que haya
  observado sobreajuste. Comente los resultados.
 
-5. Dimensionalidad: Repita el punto 4 del Práctico 1, usando ahora redes con 6 unidades en la capa intermedia. Los otros parámetros hay que setearlos adecuadamente, usando como guía los casos anteriores. Genere una gráfica que incluya los resultados de redes y árboles.
+5. Dimensionalidad: Repita el punto 4 del Práctico 1, usando ahora redes con 6 unidades en la capa intermedia. Los otros parámetros hay que setearlos adecuadamente, usando como guía los casos anteriores.
+Genere una gráfica que incluya los resultados de redes y árboles.
 
 OPCIONALES:
 
