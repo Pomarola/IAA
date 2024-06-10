@@ -107,10 +107,16 @@ Genere una gráfica que incluya los resultados de redes y árboles.
 
 OPCIONALES:
 
-6. Multiclase: Busque en los datasets de sklearn los archivos del problema iris y entrene una red sobre ellos. Tome un tercio de los datos como test, y los dos tercios restantes para entrenar y validar. Ajusto los parámetros de la red de manera conveniente. Realice curvas de entrenamiento, validación y test.
+6. Multiclase: Busque en los datasets de sklearn los archivos del problema iris y entrene una red sobre ellos. Tome un tercio de los datos como test
+, y los dos tercios restantes para entrenar y validar. Ajusto los parámetros de la red de manera conveniente. Realice curvas de entrenamiento, validación y test.
 
-Baje el dataset Faces. Entrene una red neuronal para resolver dicho problema, eligiendo adecuadamente todos los parámetros (hay que re-escalar los datos al rango [0,1] antes de usarlos). Muestre curvas de entrenamiento para asegurar la convergencia. Compare los resultados con los citados en Mitchell (pag. 112). 
+Baje el dataset Faces. Entrene una red neuronal para resolver dicho problema, eligiendo adecuadamente todos los parámetros
+ (hay que re-escalar los datos al rango [0,1] antes de usarlos). Muestre curvas de entrenamiento para asegurar la convergencia. 
+ Compare los resultados con los citados en Mitchell (pag. 112). 
 
-7. Minibatch: La implementaciín de sklearn permite usar minibaths cambiando el parámetro batch_size. Realice una comparación de las curvas de aprendizaje para el problema de Sunspots, utilizando batches de longitud 1 y otros dos valores (3 curvas). Comente los resultados. Parametros del entrenamiento: 20% de validación, learning rate 0.05, momentum 0.3, 2000 evaluaciones del entrenamiento, cada una de 200 épocas, 6 neuronas en la capa intermedia. Los valores del minibatch se deben elegir para que en cada etapa de entrenamiento haya varias actualizaciones del gradiente, o sea que no debería ser mayor a 40.
+7. Minibatch: La implementaciín de sklearn permite usar minibaths cambiando el parámetro batch_size. Realice una comparación de las curvas de aprendizaje para el problema de Sunspots
+, utilizando batches de longitud 1 y otros dos valores (3 curvas). Comente los resultados. Parametros del entrenamiento: 20% de validación, learning rate 0.05, momentum 0.3,
+ 2000 evaluaciones del entrenamiento, cada una de 200 épocas, 6 neuronas en la capa intermedia. Los valores del minibatch se deben elegir para que en 
+ cada etapa de entrenamiento haya varias actualizaciones del gradiente, o sea que no debería ser mayor a 40.
 
 En todos los puntos del práctico discutir los resultados que considere conveniente. Entregar como siempre un notebook con todo el código y los comentarios.
