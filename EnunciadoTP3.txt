@@ -70,7 +70,10 @@ from sklearn.naive_bayes import MultinomialNB
 alfa=1
 clf = MultinomialNB(alpha=alfa)
 -----------------
-Escriba código para entrenar este clasificador sobre los datos correspondientes y evaluarlo sobre los conjuntos de validación y test. Evalúe distintas combinaciones del largo del diccionario de palabras (entre 1000 y 4000 por lo menos) y del parámetro alfa (órdenes de magnitud, de 1 a 0.0001), buscando el mínimo en validación. Hay sobreajuste? El comportamiento en validación es representativo del conjunto de test? Calcule una matriz de confusión para el conjunto de test. Hay alguna particularidad que merece atención especial?
+Escriba código para entrenar este clasificador sobre los datos correspondientes y evaluarlo sobre los conjuntos de validación y test.
+ Evalúe distintas combinaciones del largo del diccionario de palabras (entre 1000 y 4000 por lo menos) y del parámetro alfa (órdenes de magnitud, de 1 a 0.0001),
+  buscando el mínimo en validación. Hay sobreajuste? El comportamiento en validación es representativo del conjunto de test?
+   Calcule una matriz de confusión para el conjunto de test. Hay alguna particularidad que merece atención especial?
  
 
 6) Opcional (2 puntos): Usando como base la implementación de CategoricalNB de Sklearn (contenida en el archivo adjunto naive_bayes.py),
