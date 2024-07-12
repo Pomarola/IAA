@@ -19,8 +19,10 @@ c) Distancias pesadas: Aplique la versión con votación pesada por distancia (i
 d) Regresión con k_nn: Prepare código para usar k-nn en regresión con pesos uniformes y con pesado inverso a la distancia, como se describió en la teoría.
  Aplique las dos versiones al problema de Sunspots (SSP) y al problema de Ikeda, y compare los resultados con los obtenidos con ANN.
 
-e) Otra variante de k-nn que se suele utilizar es usar en la votación a todos los patrones que estén a una distancia menor a un dado valor D del patrón que se quiere clasificar, en lugar de usar un número fijo k. El único parámetro del algoritmo, ahora, es la distancia máxima D, la que se optimiza utilizando un conjunto de validación. 
-Implemente código que optimice el valor de D de forma razonable en función de los datos de entrenamiento, utilizando un conjunto de validación si es necesario. Lo más interesante de este punto es discutir y definir cómo encontrar el valor de D, sin googlearlo.
+e) Otra variante de k-nn que se suele utilizar es usar en la votación a todos los patrones que estén a una distancia menor a un dado valor D del patrón que se quiere clasificar,
+ en lugar de usar un número fijo k. El único parámetro del algoritmo, ahora, es la distancia máxima D, la que se optimiza utilizando un conjunto de validación. 
+Implemente código que optimice el valor de D de forma razonable en función de los datos de entrenamiento, utilizando un conjunto de validación si es necesario.
+ Lo más interesante de este punto es discutir y definir cómo encontrar el valor de D, sin googlearlo.
 Aplique su método al problema de Dimensionalidad, y compare el resultado con los obtenidos en el punto c).
 
 f) Opcional (2 puntos): Recomendación con KNN.
